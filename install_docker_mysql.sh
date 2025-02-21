@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Variables de configuración
-MYSQL_ROOT_PASSWORD="RootSecurePass"
-MYSQL_USER="adminuser"
-MYSQL_PASSWORD="UserSecurePass"
+MYSQL_ROOT_PASSWORD="Develop@01"
+MYSQL_USER="vimaz"
+MYSQL_PASSWORD="8825"
 MYSQL_DATABASE="vimazdb"
 
 # Actualizar paquetes e instalar dependencias
