@@ -2,7 +2,7 @@
 
 # Variables de configuración
 PROJECT_DIR="/home/vimaz/v1"  # Ruta donde se almacenará el proyecto
-REPO_URL="https://github.com/usuario/backend.git"  # URL del repositorio del backend
+REPO_URL="https://github.com/vimazdev/vimaz-server.git"  # URL del repositorio del backend
 BACKEND_DIR="$PROJECT_DIR/backend"  # Carpeta donde se clonará el backend
 POSTGRES_USER="vimaz"
 POSTGRES_PASSWORD="8825"
@@ -27,7 +27,7 @@ if [ ! -d "$BACKEND_DIR/.git" ]; then
 else
     echo "🔄 Actualizando el repositorio del backend..."
     cd $BACKEND_DIR
-    git pull origin main
+    git pull origin develop
 fi
 
 # Actualizar paquetes e instalar dependencias
