@@ -3,7 +3,7 @@
 # Variables de configuración
 PROJECT_DIR="/home/vimaz/v1"  # Ruta donde se almacenará el proyecto
 REPO_URL="https://github.com/vimazdev/vimaz-server.git"  # URL del repositorio del backend
-BACKEND_DIR="$PROJECT_DIR/backend"  # Carpeta donde se clonará el backend
+BACKEND_DIR="$PROJECT_DIR/backend/backend"  # Carpeta donde se clonará el backend
 POSTGRES_USER="vimaz"
 POSTGRES_PASSWORD="8825"
 POSTGRES_DB="vimazdb"
